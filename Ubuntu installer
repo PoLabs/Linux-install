@@ -12,3 +12,7 @@ CTRL+ALT+F1
 sudo service lightdm stop
 
 sudo ./filename.run
+
+
+#get dat CUDA
+https://developer.nvidia.com/cuda-downloads
