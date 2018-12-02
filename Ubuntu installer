@@ -46,3 +46,11 @@ cd /usr/local/cuda/bin
 ./cuda-install-samples-10.0.sh ~
 cd ~/NVIDIA_CUDA-10.0_Samples
 make
+
+
+ls
+cd 1_Utilities/
+lswhic
+cd bandwidthTest/
+ls
+./bandwidthTest
