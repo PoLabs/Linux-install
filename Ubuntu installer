@@ -17,5 +17,11 @@ sudo ./filename.run
 #get dat CUDA - (.run file local)
 https://developer.nvidia.com/cuda-downloads
 
-#execute cuda install
+#execute cuda install (nvidia website)
 sudo sh cuda_10.0.130_410.48_linux.run
+#or
+#make executable
+#CTRL-ALT-F1
+#sudo service lightdm stop
+
+sudo apt-get update
