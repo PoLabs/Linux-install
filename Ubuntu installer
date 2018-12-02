@@ -1,0 +1,14 @@
+#install ubuntu, choose no for update while installing and the driver question
+
+#download driver
+https://www.nvidia.com/Download/index.aspx?lang=en-us
+
+cd Downloads
+#make executable
+chmod +x filename.run
+
+#console mode
+CTRL+ALT+F1
+sudo service lightdm stop
+
+sudo ./filename.run
