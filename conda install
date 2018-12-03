@@ -1,0 +1,17 @@
+
+
+#download Anaconda
+
+conda create -n PoEnv
+
+#conda activate PoEnv
+#conda deactivate
+
+source activate poEnv
+
+
+conda install tensorflow
+conda install keras
+conda install nb _conda
+
+jupyter notebook
