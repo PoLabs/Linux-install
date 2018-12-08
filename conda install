@@ -3,6 +3,10 @@
 #download Anaconda
 https://www.anaconda.com/download/#linux
 
+cd Downloads
+sudo sh <conda file>
+#start new terminal
+
 conda create -n PoEnv
 
 #conda activate PoEnv
