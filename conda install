@@ -1,6 +1,7 @@
 
 
 #download Anaconda
+https://www.anaconda.com/download/#linux
 
 conda create -n PoEnv
 
