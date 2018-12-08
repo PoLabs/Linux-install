@@ -2,3 +2,9 @@
 chmod 0400 .ssh/my_private_key.pem
 
 #cd to private key dir
+
+ssh -i /path/my-key-pair.pem ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
+
+
+#transfer file to isntance
+scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@c2-198-51-100-1.compute-1.amazonaws.com:~
