@@ -4,7 +4,7 @@
 https://www.anaconda.com/download/#linux
 
 cd Downloads
-sudo sh <conda file>
+sudo sh Anaconda3-5.3.1-Linux-x86_64.sh
 #start new terminal
 
 conda create -n PoEnv
