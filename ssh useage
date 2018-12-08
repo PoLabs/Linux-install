@@ -1,0 +1,4 @@
+#set correct .pem key permissions
+chmod 0400 .ssh/my_private_key.pem
+
+#cd to private key dir
