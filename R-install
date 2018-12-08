@@ -1,0 +1,6 @@
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo echo "deb https://cloud.r-project.org/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
+sudo apt update
+sudo apt upgrade r-base r-base-dev
+sudo apt update
+sudo apt upgrade
