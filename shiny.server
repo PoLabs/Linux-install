@@ -1,18 +1,19 @@
 $ sudo systemctl start shiny-server
 $ sudo systemctl stop shiny-server
-You can restart the server with:
-$ 	
 
 service shiny-server status
 
+#general server error log
 cd /var/log/
-shiny-server.log
 sudo nano /var/log/shiny-server.log
-
+#shiny app error log
+cd /var/log/shiny-server
+sudo nano <error log name>
 
 sudo cp -r production/ /srv/shiny-server/
 /home/ubuntu/R/R-3.4.0/bin/R
-Cd 
+cd
+
 
 Sync app update
 sudo aws s3 cp s3://polabs-datasets/production/ /home/ubuntu/production –recursive
