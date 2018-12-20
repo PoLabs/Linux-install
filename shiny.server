@@ -1,0 +1,60 @@
+$ sudo systemctl start shiny-server
+$ sudo systemctl stop shiny-server
+You can restart the server with:
+$ 	
+
+service shiny-server status
+
+cd /var/log/
+shiny-server.log
+sudo nano /var/log/shiny-server.log
+
+
+sudo cp -r production/ /srv/shiny-server/
+/home/ubuntu/R/R-3.4.0/bin/R
+Cd 
+
+Sync app update
+sudo aws s3 cp s3://polabs-datasets/production/ /home/ubuntu/production –recursive
+
+cd production
+sudo cp -r -f server.R /srv/shiny-server/
+sudo cp -r -f ui.R /srv/shiny-server/
+sudo systemctl restart shiny-server
+
+cd /etc/shiny-server/
+
+nano shiny-server.conf
+
+
+cd /etc/R
+sudo nano Rprofile.site
+options(bitmapType='cairo')
+
+
+
+
+
+#not sure what this is for, probably nginx
+# Instruct Shiny Server to run applications as the user "shiny"
+run_as ubuntu;
+
+# Define a server that listens on port 3838
+server {
+  listen 3838;
+
+  # Define a location at the base URL
+  location / {
+
+    # Host the directory of Shiny Apps stored in this directory
+    site_dir /srv/shiny-server;
+
+    # Log all Shiny output to files in this directory
+    log_dir /var/log/shiny-server;
+
+    # When a user visits the base URL rather than a particular application,
+    # an index of the applications available in this directory will be shown.
+    directory_index on;
+  }
+}
+
