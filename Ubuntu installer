@@ -70,3 +70,14 @@ sudo cp ./include/* /usr/local/cuda-10.0/include
 
 #test cuDNN install
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+
+
+
+
+#solving login loop: you can't login, loops back to login screen - some issue with x, lightdm, nvidia drivers
+CTRL-ALT-F1
+#login
+#sudo service lightdm stop
+#sudo apt-get purge nvidia-*
+#sudo apt-get removeall #or something the command here is wrong, look at text out of last command
+#reinstall NVIDIA drivers as above (not sure if yes/no to NVIDIA X management both seems to work then fail)
