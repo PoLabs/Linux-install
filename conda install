@@ -18,5 +18,11 @@ source activate poEnv
 conda install tensorflow
 conda install keras
 conda install nb _conda
+conda install sklearn
+conda install numpy pandas matplotlib
+
+pip install jupyterthemes
+jt -l
+jt -t chesterish
 
 jupyter notebook
