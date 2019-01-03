@@ -18,7 +18,8 @@ source activate poEnv
 conda install tensorflow
 conda install keras
 conda install nb _conda
-conda install sklearn
+#conda install sklearn
+conda install scikit-learn
 conda install numpy pandas matplotlib
 
 pip install jupyterthemes
