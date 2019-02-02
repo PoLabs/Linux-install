@@ -3,11 +3,14 @@
 #download Anaconda
 https://www.anaconda.com/download/#linux
 
+conda update -n base -c defaults conda
+
 cd Downloads
 sudo sh Anaconda3-5.3.1-Linux-x86_64.sh
 #start new terminal
 
 conda create -n PoEnv
+conda create -n DeepSpeechEnv
 
 #conda activate PoEnv
 #conda deactivate
