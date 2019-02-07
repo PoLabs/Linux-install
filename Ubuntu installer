@@ -79,5 +79,5 @@ CTRL-ALT-F1
 #login
 #sudo service lightdm stop
 #sudo apt-get purge nvidia-*
-#sudo apt-get removeall #or something the command here is wrong, look at text out of last command
+#sudo apt autoremove
 #reinstall NVIDIA drivers as above (not sure if yes/no to NVIDIA X management both seems to work then fail)
