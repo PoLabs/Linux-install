@@ -80,4 +80,4 @@ CTRL-ALT-F1
 #sudo service lightdm stop
 #sudo apt-get purge nvidia-*
 #sudo apt autoremove
-#reinstall NVIDIA drivers as above (not sure if yes/no to NVIDIA X management both seems to work then fail)
+#reinstall NVIDIA drivers as above (choose yes to having nvidia manage x profiles)
