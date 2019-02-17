@@ -8,3 +8,11 @@ ssh -i /path/my-key-pair.pem ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
 
 #transfer file to isntance
 scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@c2-198-51-100-1.compute-1.amazonaws.com:~
+
+
+
+
+
+#VPN
+#Run as root: 
+openvpn --daemon --config Atlantis.ovpn
