@@ -1,5 +1,6 @@
 #install ubuntu, choose no for update while installing and the driver question
 
+#1. NVIDIA driver
 #download driver
 https://www.nvidia.com/Download/index.aspx?lang=en-us
 
@@ -13,10 +14,9 @@ sudo service lightdm stop
 
 sudo ./filename.run
 
-
+#2. Install CUDA
 #get dat CUDA - (.run file local)
 https://developer.nvidia.com/cuda-downloads
-
 
 #make executable
 #CTRL-ALT-F1
@@ -26,11 +26,8 @@ sudo apt-get update
 
 #execute cuda install (nvidia website)
 sudo sh cuda_10.0.130_410.48_linux.run
-
 sudo sh <runfile> -silent -driver 
-
 sudo service lightdm restart
-
 #set CUDA path environment 
 gedit .bashrc
 
@@ -47,14 +44,12 @@ cd /usr/local/cuda/bin
 cd ~/NVIDIA_CUDA-10.0_Samples
 make
 
-
 ls
 cd 1_Utilities/
 lswhic
 cd bandwidthTest/
 ls
 ./bandwidthTest
-
 
 export PATH=$PATH:/usr/local/cuda/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/lib
@@ -71,8 +66,8 @@ sudo cp ./include/* /usr/local/cuda-10.0/include
 #test cuDNN install
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 
-
-
+#check cuda version
+nvcc --version
 
 #solving login loop: you can't login, loops back to login screen - some issue with x, lightdm, nvidia drivers
 CTRL-ALT-F1
