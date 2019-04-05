@@ -30,3 +30,8 @@ jt -l
 jt -t chesterish
 
 jupyter notebook
+
+
+
+#install cuda toolkit
+conda install -c anaconda cudatoolkit
