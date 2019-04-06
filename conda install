@@ -35,3 +35,12 @@ jupyter notebook
 
 #install cuda toolkit
 conda install -c anaconda cudatoolkit
+#install pytorch cuda
+conda install -c pytorch cuda90 
+
+#install numba to check cuda in conda
+conda install -c numba numba
+
+
+#update conda
+conda update -n base -c defaults conda
