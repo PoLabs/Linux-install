@@ -44,3 +44,11 @@ conda install -c numba numba
 
 #update conda
 conda update -n base -c defaults conda
+
+
+
+#mxnet gpu install, with gluon
+pip install mxnet-cu92
+pip install gluonnlp
+
+
