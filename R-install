@@ -12,7 +12,9 @@ sudo apt install r-base-core
 https://www.rstudio.com/products/rstudio/download/#download
 #ubuntu installer
 
-#sudo apt-get install gdebi-core
-#wget https://download1.rstudio.org/rstudio-1.0.44-amd64.deb
-#sudo gdebi rstudio-1.0.44-amd64.deb
+#rstudio install
+sudo apt-get install gdebi-core
+wget https://download1.rstudio.org/rstudio-1.0.44-amd64.deb
+sudo gdebi rstudio-1.0.44-amd64.deb
 #rm rstudio-1.0.44-amd64.deb
+#missing packages? https://stackoverflow.com/questions/40124580/installation-of-rstudio-x64-fails-on-ubuntu-gnome-16-10-dependency-problems/40229529#40229529
