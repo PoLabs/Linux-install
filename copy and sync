@@ -1,0 +1,2 @@
+#copy overwriting regardless of date
+rsync --ignore-times --recursive --info=progress2 /home/polabs1/Downloads/NCT-xml/results/* /media/polabs1/9498E63698E61690/NCT-xml-overflow/results
