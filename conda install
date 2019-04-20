@@ -52,3 +52,7 @@ pip install mxnet-cu92
 pip install gluonnlp
 
 
+#TF with correct GPU ver, anaconda install
+#https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc
+conda create --name tf_gpu tensorflow-gpu 
+
