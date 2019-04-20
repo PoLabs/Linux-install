@@ -1,4 +1,5 @@
 https://console.cloud.google.com/storage/browser/clintxt3?project=clintxt&cloudshell=true
+#tutorial: https://cloud.google.com/tpu/docs/tutorials/mnist
 
 ctpu up --preemptible
 
