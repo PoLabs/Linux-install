@@ -1,0 +1,18 @@
+https://console.cloud.google.com/storage/browser/clintxt3?project=clintxt&cloudshell=true
+
+ctpu up --preemptible
+
+#move files
+gsutil cp -r /start /end
+
+#leave
+exit
+#delete resource
+ctpu delete
+
+#check resource status
+stpu status
+
+
+#delete bucket
+gsutil rm -r gs://YOUR-BUCKET-NAME
