@@ -7,6 +7,7 @@ https://www.nvidia.com/Download/index.aspx?lang=en-us
 cd Downloads
 #make executable
 chmod +x filename.run
+./NVIDIA-Linux-x86_64-410.78.run
 
 #console mode
 CTRL+ALT+F1
@@ -53,6 +54,8 @@ ls
 
 export PATH=$PATH:/usr/local/cuda/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/lib
+
+#to unistnall, run uninstall script in /usr/local/cudaX/bin
   
 #get dat cuDNN, for linux, unzip
 https://developer.nvidia.com/cuDNN
