@@ -5,6 +5,7 @@ ctpu up --preemptible
 
 #move files
 gsutil cp -r /start /end
+gsutil cp -r gs://clintxt3 /home/vincent_pisano1
 
 #leave
 exit
@@ -12,8 +13,23 @@ exit
 ctpu delete
 
 #check resource status
-stpu status
+ctpu status
 
 
 #delete bucket
 gsutil rm -r gs://YOUR-BUCKET-NAME
+
+
+
+python --version
+alias python='/usr/bin/python3.5'
+
+
+
+#LOCAL gsutils (for download from gcloud)
+export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)"
+echo "deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo apt-get update && sudo apt-get install google-cloud-sdk
+
+gsutil -m cp [-r if repository] gs://[BUCKET_NAME]/[OBJECT_NAME] [OBJECT_DESTINATION_IN_LOCAL]
