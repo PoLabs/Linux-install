@@ -14,9 +14,8 @@ conda create -n DeepSpeechEnv
 
 #conda activate PoEnv
 #conda deactivate
-
 source activate poEnv
-
+#conda info --envs
 
 conda install tensorflow
 conda install keras
