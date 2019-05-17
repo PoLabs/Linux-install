@@ -1,5 +1,7 @@
 #install ubuntu, choose no for update while installing and the driver question
 
+sudo apt-get install build-essential
+
 #1. NVIDIA driver
 #download driver
 https://www.nvidia.com/Download/index.aspx?lang=en-us
