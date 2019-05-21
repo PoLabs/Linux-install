@@ -3,3 +3,8 @@ rsync --ignore-times --recursive --info=progress2 /home/polabs1/Downloads/NCT-xm
 
 #tar -czvf nameoftar.tar.gz fodlertotar
 tar -czvf directorios.tar.gz folder
+
+
+
+Fix pulaseaudio issues:
+https://askubuntu.com/questions/426648/how-to-reinstall-pulseaudio-ubuntu-12-04
