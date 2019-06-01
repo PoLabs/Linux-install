@@ -2,6 +2,12 @@
 
 
 https://clonezilla.org/downloads/download.php?branch=stable
+#use first option 800x600 vga, do not use load to RAM
+
 
 https://tuxboot.org/download/
 
+
+#turning SWAP on boot
+sudo nano /etc/fstab
+/dev/sdb5       none            swap    sw              0       0
