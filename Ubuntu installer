@@ -14,6 +14,7 @@ chmod +x filename.run
 #console mode
 CTRL+ALT+F1
 sudo service lightdm stop
+#check htop if still getting 'x server running errors'
 
 sudo ./filename.run
 
