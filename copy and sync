@@ -8,3 +8,12 @@ tar -czvf directorios.tar.gz folder
 
 Fix pulaseaudio issues:
 https://askubuntu.com/questions/426648/how-to-reinstall-pulseaudio-ubuntu-12-04
+
+
+#setting up local fileshare
+#both computers:
+sudo apt-get install openssh-server
+#files > other locations
+sftp://polabs1@polabs1.local/home/polabs1
+
+
