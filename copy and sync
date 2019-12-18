@@ -16,4 +16,5 @@ sudo apt-get install openssh-server
 #files > other locations
 sftp://polabs1@polabs1.local/home/polabs1
 
-
+#SSH into another comp local
+ssh polabs1@polabs1.local
