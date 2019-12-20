@@ -21,7 +21,7 @@ conda install tensorflow
 conda install keras
 conda install nb _conda
 conda install scikit-learn
-conda install numpy pandas matplotlib
+conda install numpy pandas matplotlib jupyter
 
 pip install jupyterthemes
 jt -l
