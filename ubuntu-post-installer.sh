@@ -18,6 +18,7 @@ sudo apt-get install filezilla -y
 #putty
 sudo apt-get install putty -y
 
+sudo apt-get install libcurl4-openssl-dev
 #R,Rstudio,Rtools
 sudo apt -y install r-base
 wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.3.1093-amd64.deb
@@ -27,11 +28,10 @@ sudo dpkg -i rstudio-1.3.1093-amd64.deb
 #VLC
 sudo apt install vlc -y
 
+#notepad++
+sudo snap install notepad-plus-plus
 
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 -y
-
-
-
 #Anaconda
 wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh -y
