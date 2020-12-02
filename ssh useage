@@ -16,3 +16,17 @@ scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@c2-198-51-100-1.compu
 #VPN
 #Run as root: 
 openvpn --daemon --config Atlantis.ovpn
+
+
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl status ssh
+sudo ufw allow ssh
+
+#connect to ssh
+ssh username@ip_address
+
+#get ip address
+ip a
+polabs2: 192.168.1.104
+polabs1: 192.168.1.145
