@@ -28,5 +28,5 @@ ssh username@ip_address
 
 #get ip address
 ip a
-polabs2: 192.168.1.104
-polabs1: 192.168.1.145
+polabs2: 192.168.1.145
+polabs1: 192.168.1.104
