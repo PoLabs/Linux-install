@@ -25,6 +25,9 @@ wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.3.1093-amd64.d
 sudo apt-get install libclang-dev -y
 sudo dpkg -i rstudio-1.3.1093-amd64.deb
 
+# git
+sudo apt install git -y
+
 #VLC
 sudo apt install vlc -y
 
