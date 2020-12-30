@@ -1,0 +1,5 @@
+ps aux | grep vlc
+
+
+sudo kill -9 PID
+
