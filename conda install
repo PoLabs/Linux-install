@@ -43,6 +43,15 @@ conda install -c numba numba
 #update conda
 conda update -n base -c defaults conda
 
+#create yml file
+conda env export --name ENVNAME > envname.yml
+
+#create env from yml
+conda env create --file envname.yml
+
+
+
+
 
 
 #mxnet gpu install, with gluon
