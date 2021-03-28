@@ -30,3 +30,4 @@ ssh username@ip_address
 ip a
 polabs2: 192.168.1.145
 polabs1: 192.168.1.104
+polabs4: 192.168.1.139
