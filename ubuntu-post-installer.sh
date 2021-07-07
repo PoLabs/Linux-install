@@ -42,3 +42,8 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
 wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh -y
 
+#openoffice
+wget https://sourceforge.net/projects/openofficeorg.mirror/files/4.1.7/binaries/en-US/Apache_OpenOffice_4.1.7_Linux_x86-64_install-deb_en-US.tar.gz/download
+tar -xvf download
+sudo dpkg -i en-US/DEBS/*.deb
+sudo dpkg -i en-US/DEBS/desktop-integration/*.deb
