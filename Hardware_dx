@@ -1,0 +1,9 @@
+
+
+sudo apt-get install htop hddtemp lm-sensors
+
+htop
+
+lscpu | grep MHz
+
+sensors
