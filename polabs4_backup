@@ -1,0 +1,2 @@
+
+0 5 * * 1 sudo tar -Pzcf /var/backups/home_$(date "+%Y-%m-%d_%H-%M-%S").tgz /home/
